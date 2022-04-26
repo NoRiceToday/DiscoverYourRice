@@ -13,4 +13,4 @@ A context-sensitive WebApp, that uses machine learning to customize user experie
 - WebApp has been developed using Angular and Bootstrap and is kept fairly minimal for illustration purposes.
 
 Screenshot of the WebApp:
-![msedge_dBvQfYkWn7](https://user-images.githubusercontent.com/25351150/165299187-b591ee1b-da34-4ba3-ae0f-dcc316a67b50.jpg)
+![msedge_xSaL6jVEhe](https://user-images.githubusercontent.com/25351150/165299269-4de10a17-15c8-4f43-84c3-1621939dd76f.jpg)
