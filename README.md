@@ -23,5 +23,19 @@ Data for Training was taken from a private influx db, downloaded to a csv and th
 ## WebApp
 WebApp has been developed using Angular and Bootstrap and is kept fairly minimal for illustration purposes.
 - Model has been ported to a JavaScript file using Porter to use in realtime ("Classifier.js").
-- Screenshot:
+
+
+## Usage Instructions
+If you only want to use the webApp:
+1. Download the 'webApp' folder
+2. Execute "npm install", "ng update" and "npm update" in '/webApp' as well as '/webApp/KontextSensitiveApp'.
+3. Execute 'ng serve' from the '/webApp/KontextSensitiveApp' directory.
+4. Open 'localhost:4200' in your browser.
+5. Enjoy! It should work now.
+
+*Note: The classification will always classify the state as sitting when using it in a desktop environment. To test the real-time classification feature, you need to open it on a mobile device.*
+
+To play around with the classifier or data wrangling, you probably need to refactor quite a few variables as this project has been developed only to be used by me for a master's lecture. Edit at your own risk!
+
+Screenshot:
 ![msedge_xSaL6jVEhe](https://user-images.githubusercontent.com/25351150/165299269-4de10a17-15c8-4f43-84c3-1621939dd76f.jpg)
