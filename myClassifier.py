@@ -133,32 +133,32 @@ if __name__ == '__main__':
     random_forest.fit(data, labels)
 
     # evaluate the different classifiers:
-    # naive_bayes_score = cross_val_score(naive_bayes, data, labels, cv=10)  # standard=10, as rec in lecture
-    # svc_score = cross_val_score(svc, data, labels, cv=10)
-    # knn_score = cross_val_score(knn, data, labels, cv=10)
-    # decision_tree_score = cross_val_score(decision_tree, data, labels, cv=10)
-    # multilayer_perceptron_score = cross_val_score(multilayer_perceptron, data, labels, cv=10)
+    naive_bayes_score = cross_val_score(naive_bayes, data, labels, cv=10)  # standard=10, as rec in lecture
+    svc_score = cross_val_score(svc, data, labels, cv=10)
+    knn_score = cross_val_score(knn, data, labels, cv=10)
+    decision_tree_score = cross_val_score(decision_tree, data, labels, cv=10)
+    multilayer_perceptron_score = cross_val_score(multilayer_perceptron, data, labels, cv=10)
     random_forest_score = cross_val_score(random_forest, data, labels, cv=10)
 
-    # print('Naive Bayes: ')
-    # print(naive_bayes_score)
-    # print("%0.2f accuracy with a standard deviation of %0.2f \n" % (naive_bayes_score.mean(), naive_bayes_score.std()))
-    #
-    # print('SVC: ')
-    # print(svc_score)
-    # print("%0.2f accuracy with a standard deviation of %0.2f \n" % (svc_score.mean(), svc_score.std()))
-    #
-    # print('5 Nearest Neighbors: ')
-    # print(knn_score)
-    # print("%0.2f accuracy with a standard deviation of %0.2f \n" % (knn_score.mean(), knn_score.std()))
-    #
-    # print('Decision Tree: ')
-    # print(decision_tree_score)
-    # print("%0.2f accuracy with a standard deviation of %0.2f \n" % (decision_tree_score.mean(), decision_tree_score.std()))
-    #
-    # print('Multilayer Perceptron: ')
-    # print(multilayer_perceptron_score)
-    # print("%0.2f accuracy with a standard deviation of %0.2f \n" % (multilayer_perceptron_score.mean(), multilayer_perceptron_score.std()))
+    print('Naive Bayes: ')
+    print(naive_bayes_score)
+    print("%0.2f accuracy with a standard deviation of %0.2f \n" % (naive_bayes_score.mean(), naive_bayes_score.std()))
+    
+    print('SVC: ')
+    print(svc_score)
+    print("%0.2f accuracy with a standard deviation of %0.2f \n" % (svc_score.mean(), svc_score.std()))
+    
+    print('5 Nearest Neighbors: ')
+    print(knn_score)
+    print("%0.2f accuracy with a standard deviation of %0.2f \n" % (knn_score.mean(), knn_score.std()))
+    
+    print('Decision Tree: ')
+    print(decision_tree_score)
+    print("%0.2f accuracy with a standard deviation of %0.2f \n" % (decision_tree_score.mean(), decision_tree_score.std()))
+    
+    print('Multilayer Perceptron: ')
+    print(multilayer_perceptron_score)
+    print("%0.2f accuracy with a standard deviation of %0.2f \n" % (multilayer_perceptron_score.mean(), multilayer_perceptron_score.std()))
 
     print('Random Forest Score: ')
     print(random_forest_score)
