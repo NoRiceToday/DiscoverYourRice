@@ -1,6 +1,8 @@
 # DiscoverYourRice
 A context-sensitive WebApp, that uses machine learning to customize user experience. More specifically, it autoplays an embedded youtube video if the user is sitting or standing and stops it, if the user is walking. This is done using real-time classification of mobile sensor data.
 
+![msedge_xSaL6jVEhe](https://user-images.githubusercontent.com/25351150/165299269-4de10a17-15c8-4f43-84c3-1621939dd76f.jpg)
+
 ## ML Model
 Uses a Random Forest Classifier to determine whether the user is sitting, standing or walking.
 - Multilayer Perceptron, K-Nearest Neighbors, Support Vector Classification/Machine, Decision Tree and Naive Bayes Models have all been trained and tested as well. 
@@ -37,5 +39,4 @@ If you only want to use the WebApp:
 
 To play around with the classifier or data wrangling, you probably need to refactor quite a few variables as this project has been developed only to be used by me for a master's lecture. Edit at your own risk!
 
-Screenshot:
-![msedge_xSaL6jVEhe](https://user-images.githubusercontent.com/25351150/165299269-4de10a17-15c8-4f43-84c3-1621939dd76f.jpg)
+
