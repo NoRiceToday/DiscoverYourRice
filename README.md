@@ -1,5 +1,5 @@
 # DiscoverYourRice
-A context-sensitive WebApp, that uses machine learning to customize user experience. More specifically, it autoplays an embedded youtube video if the user is sitting or standing and stops it, if the user is walking. This is done using real-time classification of mobile sensor data.
+A context-sensitive WebApp, that uses machine learning to customize user experience. In this demo, it autoplays an embedded youtube video if the user is sitting or standing and stops it, if the user is walking. This is done using real-time classification of mobile sensor data.
 
 ![msedge_xSaL6jVEhe](https://user-images.githubusercontent.com/25351150/165299269-4de10a17-15c8-4f43-84c3-1621939dd76f.jpg)
 
@@ -25,6 +25,8 @@ Data for Training was taken from a private influx db, downloaded to a csv and th
 ## WebApp
 WebApp has been developed using Angular and Bootstrap and is kept fairly minimal, as it is mainly for illustration purposes.
 - Model has been ported to a JavaScript file using Porter to use in realtime ("Classifier.js").
+- Currently the classification of the user's position is used pause the video when he starts walking (traffic safety is important kids), and auto-plays when he sits or stands still.
+- However, there are many other possibilities and options how this could be used, for instance to adjust font-size, add a traffic safety warning etc.
 
 
 ## Usage Instructions
